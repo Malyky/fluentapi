@@ -1,14 +1,10 @@
-package org.example;
+package example2;
 
 public class WordBuilder implements Start, End, Intermediate1, Intermediate2, Intermediate3 {
 
     private String word;
 
     final StringBuilder sb = new StringBuilder();
-
-    public static WordBuilder create() {
-        return new WordBuilder();
-    }
 
     @Override
     public void end() {

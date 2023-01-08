@@ -1,4 +1,4 @@
-package org.example;
+package example1;
 // Initial interface, entry point of the DSL
 // Depending on your DSL's nature, this can also be a class with static
 // methods which can be static imported making your DSL even more fluent
